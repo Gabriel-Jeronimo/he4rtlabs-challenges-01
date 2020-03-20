@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Freela - He4rtDevs</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <div>
-      <h1>Olá mundo.</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de freelas</h1>
+        </header>
+
+    <div id="conteudo">
+        <div id="EspacoResultado">
+            <p id="resultado">
+                
+            </p>
+        </div>
+        <div id="formulario">
+            <form>
+                <br>
+                <label for="HorasDia">Horas por dia</label>
+                <input type="number" min=0 oninput="validity.valid || (value='');" onclick="CampoUm()" id="HorasDia" placeholder="Tempo em horas">
+            
+                <label for="DiasSemana">Dias da semana</label>
+                <input type="number" min=0 oninput="validity.valid || (value='');" onclick="CampoDois()" id="DiasSemana" placeholder="Dias"> 
+
+                <label for="Ferias">Férias estipuladas</label>
+                <input type="number" min=0 oninput="validity.valid || (value='');" onclick="CampoTres()" id="Ferias" placeholder="Dias de férias"> 
+
+                <label for="TotalProjeto">Total pelo projeto</label>
+                <input type="number" min=0 oninput="validity.valid || (value='');" onclick="CampoQuatro()" id="TotalProjeto" placeholder="Valor total"> 
+    
+                <button type="button" onclick="resultadoTotal()">Enviar</button>
+            </form>
+        </div>
     </div>
-    <script src="./main.js"></script>
-  </body>
+    <footer>
+        <h1>Challenge He4rthDevs - Desenvolvido por Gabriel Jeronimo</h1>
+    </footer>
+</body>
 </html>

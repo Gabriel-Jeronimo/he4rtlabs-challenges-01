@@ -1,0 +1,91 @@
+#conteudo{
+    position: relative;
+    bottom: 30px;
+}
+header{
+    color: white;
+    font: 16px 'Roboto', sans-serif;
+    text-align: center;
+    max-height: 30px;
+}
+body{
+    background-color: blueviolet;
+}
+#formulario{
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    top: 82px;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+#formulario input{
+    text-align: center;
+    position: relative;
+    left: 22%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 60%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 32px;
+    height: 45px;
+}
+#formulario form button{
+    position: relative;
+    border: none;
+    background-color: blueviolet;
+    width: 150px;
+    left: 4px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+
+}
+#EspacoResultado{
+    color: black;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    border-radius: 10px;
+    left: 23%;
+    top: 143px;
+    font: 16px 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#resultado{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    margin-left: 3px;
+    max-width: 40ch;
+}
+#resultado img{
+    position: relative;
+    margin-top: 10px;
+}
+footer{
+    width: 500px;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 530px;
+
+}
+
+footer h1{
+    font: 16px 'Roboto', sans-serif;
+}
